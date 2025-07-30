@@ -13,6 +13,7 @@ Premetive Data types hold single values
 5. null
    let x=null
 6. symbol
+   uniquess
    
 
 
