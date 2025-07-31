@@ -1,5 +1,5 @@
 /*
-Premetive Data types hold single values
+Premetive Data types hold single values( thye can not be changed directly)
 1. strings/Text
 2. numbers
    intergers
@@ -19,6 +19,8 @@ Premetive Data types hold single values
 
 */
 let productName ="timber"//strings we put them in quotes
+typeof(productName)
+console.log(typeof(productName))
 let productCost = 4500
 let transportIsNeeded = true
 let tableColor
@@ -28,8 +30,8 @@ console.log(productCost *2
 )
 
 /*
-Non primitive Data type
-1. Array
+Non primitive Data type(they can be changed directly without reassigning the value)
+1. Array( all arrays are ordered lists [indexing])
        is a list off item
         [ number]
         [string
